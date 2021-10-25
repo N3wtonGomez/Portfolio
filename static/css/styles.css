@@ -2,7 +2,7 @@
   --color1: rgb(0, 0, 0);
   --color2: rgba(23, 180, 83, 0.877);
   --color3: rgba(11,194,211, 0.623);
-  --fondo: rgba(211, 211, 211, 0.377);
+  --fondo: rgb(211, 211, 211);
   --titulos: 33px;
   --margenes: 60px;
   --espacios: 10px;
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'open sans';
+  font-family: 'Jost', sans-serif;
   background: var(--fondo);
 }
 
@@ -90,7 +90,7 @@ header{
   width: 100%;
   height:600px;
   background: linear-gradient(to bottom,
-  rgba(12, 228, 192, 0.377),
+  rgba(0, 0, 0, 0.377),
   rgba(12, 228, 192, 0.377),
   rgba(12, 228, 192, 0.377)
   ), url(../img/IMG_0497.PNG);
@@ -126,6 +126,8 @@ nav{
   max-width:1000px;
   height:inherit;
   overflow: hidden;
+  font-family:  'Poppins', sans-serif;
+  font-weight: bold;
 }
 
 nav .enlaces a{
@@ -162,6 +164,7 @@ nav .enlaces a:hover{
   color:rgb(0, 0, 0);
   overflow: hidden;
   text-align: center;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .textos>h1{font-size:80px;;}
@@ -238,7 +241,7 @@ nav .enlaces a:hover{
 
 .servicios{
   display: flex;
-  color:#fff;
+  color:rgb(0, 0, 0);
   justify-content: space-between;
   margin: auto;
   flex-wrap: wrap;
@@ -334,7 +337,7 @@ footer{background:url(../img/teclado.jpg);}
 .iconos{
   display: flex;
   margin: auto;
-  justify-content: space-around;
+  justify-content:space-evenly;
   width: 100%;
 }
 .fab{
