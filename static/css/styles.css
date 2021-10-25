@@ -235,7 +235,7 @@ nav .enlaces a:hover{
 }
 
 .about{
-  background: url(img/teclado.jpg);
+  /* background: url(../img/teclado.jpg); */
   height: auto;
 }
 
@@ -249,6 +249,7 @@ nav .enlaces a:hover{
 .caja-servicios{
   width: 30%;
   margin: auto;
+  margin-top: 30px;
   text-align: center;
 }
 .caja-servicios>h4{
@@ -258,6 +259,21 @@ nav .enlaces a:hover{
 .caja-servicios>p{
   text-align: center;
 }
+
+.caja-servicios2{
+  width: 20%;
+  margin: auto;
+  margin-top: 0px;
+  text-align: center;
+}
+.caja-servicios2>h4{
+  margin-bottom: var(--espacios);
+}
+
+.caja-servicios2>p{
+  text-align: center;
+}
+
 
 .botones-work{
   overflow: hidden;
@@ -341,17 +357,30 @@ footer{background:url(../img/teclado.jpg);}
   width: 100%;
 }
 .fab{
-  font-size:60px;
+  font-size:50px;
   color: rgb(255, 255, 255);
   margin-bottom: var(--espacios);
   display: inline-block;
 }
 .fab:hover{
-  font-size:60px;
+  font-size:50px;
   color: rgb(41, 182, 192);
   margin-bottom: var(--espacios);
   display: inline-block;
 }
+.fas{
+  font-size:50px;
+  color: rgb(255, 255, 255);
+  margin-bottom: var(--espacios);
+  display: inline-block;
+}
+.fas:hover{
+  font-size:50px;
+  color: rgb(41, 182, 192);
+  margin-bottom: var(--espacios);
+  display: inline-block;
+}
+
 footer p{
   margin-top:var(--espacios);
 }
@@ -410,6 +439,12 @@ footer p{
   }
 
   .caja-servicios{
+    width: 90%;
+    margin-bottom: var(--margenes);
+  }
+
+  
+  .caja-servicios2{
     width: 90%;
     margin-bottom: var(--margenes);
   }
